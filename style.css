@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Montserrat:wght@600;900&display=swap');
+
+/* 
+
+font-family: 'Cedarville Cursive', cursive; // 600 and 900
+font-family: 'Montserrat', sans-serif; //400
+
+*/
+
+
+body{
+    background: url('./images/bgGym.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+div{
+    background-color: #758283;
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 25px;    
+    opacity: 75%;
+}
+button{
+    background: orange;
+    color: white;
+    padding : 20px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+}
+h1{
+    font-size: 4em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin-top: 15px;
+}
+p{
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: 400;
+    font-size: 2.3em;
+    color: white;
+}
